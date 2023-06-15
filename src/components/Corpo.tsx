@@ -15,9 +15,9 @@ type Dados = {
 export function Corpo(){
 
    
-
+    // Lista para armazenar os nomes.
     const [listNome, setListNome] = useState([]);
-
+    // Varival para armazenar os dados do formulario.
     const [nomeDigitado, setNomeDigitado] = useState('')
     const [cidadeDigitado, setCidadeDigitado] = useState('')
     
